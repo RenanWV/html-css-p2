@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+
+}
+
+header {
+    background-image: linear-gradient(#38CA79, #1A5C38);
+    height: 300px;
+}
+
+body {
+    background-color: #84E1AD;
+
+}
+
+.cabecalho {
+    font-family: 'Phudu', cursive;
+    text-align: center;
+    color: white;
+    font-size: 84px;
+    padding: 30px;
+}
+
+.subtitulo {
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.692);
+    padding-bottom: 30px;
+}
+
+.linkprincipal {
+    margin: 6px;
+}
+
+.links {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+}
+
+.links:hover {
+    background-color: #84E1AD;
+    font-size: 50px;
+}
+
+.artigo {
+    padding: 0 13%;
+
+}
+
+.artigo2 {
+    padding: 0 13%;
+}
+div.video {
+    background-color: #0f4929;
+    margin-bottom: 30px;
+    margin: 0px -5px 5px -5px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 55%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+article {
+    background-color: white;
+    padding: 30px;
+    text-align: justify;
+
+}
+
+article>h1 {
+    font-family: idroid;
+    font-size: 60px;
+    color: #0f4929;
+
+}
+
+article>p {
+    text-indent: 55px;
+    margin: 10px;
+    font-size: 38px;
+    padding: 10px;
+    line-height: 1.3;
+}
+
+article>h2 {
+    font-family: idroid;
+    background-image: linear-gradient(to right,#84E1AD, white );
+    font-size: 50px;
+    color: #0f4929;
+
+}
+
+.imagem {
+    text-align: center;
+
+}
+
+.bugdroid {
+    width: 40%;
+
+}
+
+.irina {
+    height: 80%;
+}
+
+.saibamais {
+    background-color: #2FA866;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.listas {
+    background-color: #C5EBD6;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.listacompleta {
+    padding: 20px;
+}
+
+.lista1 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.lista2 {
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    left: 25%;
+    padding-bottom: 30px;
+}
+
+.link2 {
+    text-decoration: none;
+    color: #0f4929;
+    font-weight: bolder;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #1A5C38;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+/* Celular */
+
+@media screen and (max-width: 767px) {
+
+    header {
+        height: 100px;
+        padding: 15px;
+    }
+
+    .cabecalho {
+        font-size: 26px;
+        padding: 10px;
+
+    }
+    .subtitulo {
+        font-size: 18px;
+    }
+
+    .linkprincipal {
+        margin: -4px;
+    }
+
+    .links {
+        font-size: 15px;
+        padding-left: 0;
+    }
+
+    /* .links:hover {
+        background-color: #84E1AD;
+        font-size: 23px;
+    } */
+
+    article>h1 {
+        font-family: idroid;
+        font-size: 20px;
+        color: #0f4929;
+
+    }
+
+    article>p {
+        margin: 10px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    article>h2 {
+        font-family: idroid;
+        background-color: #0f49291c;
+        font-size: 20px;
+        color: #0f4929;
+
+    }
+
+    .saibamais {
+        background-color: #2FA866;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .listas {
+        background-color: #C5EBD6;
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    .lista2 {
+        display: inline-block;
+        font-weight: bold;
+        position: relative;
+        left: 0;
+        padding-bottom: 30px;
+    }
+
+    .rodape {
+        font-size: 15px;
+    }
+
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1024px) {
+
+    header {
+        height: 160px;
+        padding: 3px;
+    }
+
+    .cabecalho {
+        font-size: 35px;
+        padding-bottom: px;
+
+    }
+    
+    .subtitulo {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .links {
+        font-size: 20px;
+        
+    }
+    .linkprincipal {
+        margin: 5px;
+    }
+
+    .links:hover {
+        background-color: #84E1AD;
+        color: #0f4929;
+        font-size: 30px;
+    }
+
+    article > h1 {
+        font-family: idroid;
+        font-size: 35px;
+        color: #0f4929;
+
+    }
+
+    article > p {
+        margin: 10px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    article>h2 {
+        font-family: idroid;
+        background-color: #0f49291c;
+        font-size: 30px;
+        color: #0f4929;
+
+    }
+
+    .saibamais {
+        font-size: 34px;
+    }
+
+    .listas {
+        font-size: 20px;
+    }
+
+    .lista2 {
+        left: 0;
+    }
+
+    .rodape {
+        font-size: 15px;
+    }
+    
+}
